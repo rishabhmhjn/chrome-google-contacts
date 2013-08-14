@@ -1,0 +1,33 @@
+{
+    "name": "__MSG_appName__",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "__MSG_appDescription__",
+    "icons": {
+        "16": "images/icon-16.png",
+        "128": "images/icon-128.png"
+    },
+    "default_locale": "en",
+    "background": {
+        "scripts": [
+            "scripts/chrome_ex_oauthsimple.js",
+            "scripts/chrome_ex_oauth.js",
+            "scripts/background.js"
+        ]
+    },
+    "permissions": [
+        "tabs",
+        "http://www.google.com/m8/feeds/*",
+        "https://www.google.com/accounts/OAuthGetRequestToken",
+        "https://www.google.com/accounts/OAuthAuthorizeToken",
+        "https://www.google.com/accounts/OAuthGetAccessToken"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon-16.png",
+            "38": "images/icon-128.png"
+        },
+        "default_title": "__MSG_appName__",
+        "default_popup": "app.html"
+    }
+}

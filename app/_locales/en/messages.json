@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "G-Contacts",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Google Contacts quick access",
+    "description": "The description of the application"
+  }
+}
